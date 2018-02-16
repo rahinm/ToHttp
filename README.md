@@ -18,7 +18,7 @@ The URL can be specified to use eitheth http:// or https:// schemes.
 If for https:// scheme a custom trustsore is needed, ensure that the
 trust certificate is in the custom truststore and then run the tool as,
 
-`java -Djavax.net.ssl.trustStore=<trust-store-name> <listener socket> <forwarding URL>`
+`java -Djavax.net.ssl.trustStore=<trust-store-name> -jar <listener socket> <forwarding URL>`
 
 
 ## License
